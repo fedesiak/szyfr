@@ -1,3 +1,4 @@
+//tworzy tabele 
 #include <iostream>
 #include <math.h>
 
