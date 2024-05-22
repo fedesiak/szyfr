@@ -1,0 +1,50 @@
+#include <iostream>
+
+using namespace std;
+
+string Cezar(string w, int k)
+{
+k=k%26;
+string szyfr="";
+for(int i=0; i<w.length();i++)
+{
+    if(w[i]+k>122)
+    {
+        szyfr+=w[i]+k-26;
+    }
+    else
+        {
+        szyfr+=w[i]+k;
+        }
+}
+    return szyfr;
+
+}
+
+string Dezar(string w, int k) //odwrotny
+{
+    k=k%26;
+    string szyfr="";
+    for(int i=0;i<w.length();i++)
+    {
+        if(w[i]-k<97)
+        {
+            szyfr+=w[i]-k+26;
+        }
+        else
+        {
+            szyfr+=w[i]-k;
+        }
+    }
+    return szyfr;
+}
+
+
+
+int main()
+{
+string a,b;
+cin>>a;
+b = Dezar(a,3);
+cout<<"slowo przed: "<<a<<" slowo po: "<<b<<endl;
+}
