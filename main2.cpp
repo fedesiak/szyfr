@@ -1,3 +1,4 @@
+//kodowanie wyrazu przesuwa co dwie litery
 #include <iostream>
 
 using namespace std;
@@ -20,7 +21,7 @@ return wyraz;
 
 int main()
 {
-    cout<<"slowo komputer zakodowane: "<<szyfr("monitor",2)<<endl;
+    cout<<"slowo monitor zakodowane: "<<szyfr("monitor",2)<<endl;
 
 
 }
