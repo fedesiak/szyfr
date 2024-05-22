@@ -1,3 +1,4 @@
+//tworzy tabele odszyfrowanie
 #include <iostream>
 #include <math.h>
 
