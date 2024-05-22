@@ -1,4 +1,5 @@
- #include <iostream>
+//podstawianie
+#include <iostream>
 
 using namespace std;
 
