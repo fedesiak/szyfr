@@ -4,7 +4,7 @@
 
 using namespace std;
 
-string szyfrowanie(string a)
+string szyfrowanie(string a) 
 {
     string b="";
     int r = ceil(sqrt(a.length()));
