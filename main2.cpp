@@ -1,4 +1,4 @@
-//kodowanie wyrazu przesuwa co dwie litery
+//kodowanie wyrazu przesuwa co dwie litery 
 #include <iostream>
 
 using namespace std;
