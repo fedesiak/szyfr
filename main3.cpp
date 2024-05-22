@@ -1,4 +1,4 @@
-//rozklada wyraz na tebele
+//rozklada wyraz na tebele 
 #include <iostream>
 #include <math.h>
 
